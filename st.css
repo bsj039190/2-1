@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.spbutton {
+  display: hide;
+  border-radius: 20%;
+  border: none;
+  color: white;
+  padding: none;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 30px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.spbutton1 {
+  font-size: 25px;
+  background-color: black; 
+  color: white; 
+  border: 2px solid lightgray;
+}
+
+.spbutton:hover {
+  background-color: rgb(73, 73, 73);
+  color: white;
+}
+
+.spbutton:active {
+  display: block;
+}
+
+
+
+
+.button {
+    border-radius: 70%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    font-size: 25px;
+    background-color: black; 
+    color: white; 
+    border: 2px solid lightgray;
+  }
+  
+  .button1:hover {
+    background-color: rgb(73, 73, 73);
+    color: white;
+  }
+  
+
+  .image {
+    position:absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+  }
+
+
+  
+
+  .box {
+    padding: 10px;
+  }
+  p {
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+  p:hover {
+    color: #fff
+  }
+  span1 {
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+  }
+  span1::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    /*background: rgba(200, 125, 220, .6);*/
+    background: rgba(219, 166, 96, 0.68);
+  }
+  p:hover span1::after {
+    width: 100%;
+    transition: width .3s;
+  }
+
+
+  span2 {
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+  }
+  span2::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    /*background: rgba(200, 125, 220, .6);*/
+    background: rgba(18, 219, 0, 0.68);
+  }
+  p:hover span2::after {
+    width: 100%;
+    transition: width .3s;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 32px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: inline-block;
+  }
